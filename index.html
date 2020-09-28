@@ -1,0 +1,15 @@
+<html>
+<head>
+    <title>OTP VERIFICATION</title>
+</head>
+<body>
+    Enter EMAIL: <input type="string" name="email" id="email"><br><br>
+    <button onclick="generate(document.getElementById('email').value)">Send OTP</button>
+    <br><br>
+    Enter OTP: <input type="number" name="a" id="a"><br><br>
+    <button onclick="match(document.getElementById('a').value)">Verify</button>
+    <p id="otp" hidden></p>
+    <!-- <script src="main.js"></script> -->
+    <script src="bundle.js"></script>
+</body>
+</html>
